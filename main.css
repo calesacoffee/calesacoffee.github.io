@@ -1,0 +1,89 @@
+html{
+    width: 100vw;
+    height: 100%;
+    background-color: rgb(250, 250, 250);
+    padding: 0;
+    margin: 0;
+}
+body{
+    padding: 0;
+    margin: 0;
+    background-color: rgb(241, 239, 237);
+}
+
+*{
+    font-family: Helvetica;
+}
+
+.marquee-modal{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    height: auto;
+    padding: 0px;
+    margin: 0px;
+}
+
+.marquee-image{
+    width: 50%;
+    height: 60vw;
+    max-height: 500px;
+    margin: 0;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-self: center;
+}
+
+.marquee-text{
+    width: 50%;
+    height: 60vw;
+    max-height: 500px;
+    margin: 0;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+h4{
+    width: auto;
+    color: black;
+    font-size: 16px;
+    font-weight: 600;
+    font-family: Helvetica;
+    margin: 0px;
+    padding: 8px;
+    text-align: left;
+}
+
+
+h5{
+    width: auto;
+    color: black;
+    font-size: 16px;
+    font-weight: 100;
+    font-family: Helvetica;
+    margin: 0px;
+    padding: 8px;
+    text-align: left;
+}
+
+h6{
+    width: auto;
+    color: black;
+    font-size: clamp(10px, 10vw, 14px);
+    font-weight: 100;
+    font-family: Helvetica;
+    margin: 0px;
+    padding: 8px;
+    text-align: left;
+}
+#quote{
+    background-color: rgb(160, 41, 41);
+    color: white;
+    width: 100%;
+}
