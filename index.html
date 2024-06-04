@@ -17,12 +17,12 @@
     top: 0;
     left: 0;
     z-index: 99;">
-        <div class="header-logo-container"  onclick="document.getElementById('top-of-page').scrollIntoView();"> 
+        <div class="header-logo-container"  onclick="document.getElementById('top-of-page').scrollIntoView({ block: 'end',  behavior: 'smooth' });"> 
             <img src="beigelogo.png" alt="" class="header-logo">
         </div>
 
         <div style="width: 100%; text-align: right; padding: 10px;">
-            <button class="contact-banner" onclick="document.getElementById('contact').scrollIntoView();">
+            <button class="contact-banner" onclick="document.getElementById('contact').scrollIntoView({ block: 'end',  behavior: 'smooth' });">
                 Visítanos
             </button>
         </div>
