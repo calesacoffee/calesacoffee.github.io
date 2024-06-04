@@ -13,11 +13,17 @@
     top: 0;
     left: 0;
     z-index: 99;">
-        <div class="header-logo-container"> 
+        <div class="header-logo-container"  onclick="document.getElementById('top-of-page').scrollIntoView();"> 
             <img src="beigelogo.png" alt="" class="header-logo">
         </div>
-    </div>
 
+        <div style="width: 100%; text-align: right; padding: 10px;">
+            <button class="contact-banner" onclick="document.getElementById('contact').scrollIntoView();">
+                Visítanos
+            </button>
+        </div>
+    </div>
+    <div id="top-of-page" style="height: 0px;"></div>
     <div id="header-banner">  
     </div>
 
@@ -30,21 +36,19 @@
         <div class="marquee-text">
     
             <div style="margin: 0; width: 80%;">
-                <h4>Concepto</h4>
-                <h5 style="color: rgb(0, 0, 0);">Durante los ultimos 20+ años te hemos dado la taza de café perfecta, con un servicio inigualable.
-                </h5>
+                <h4 style="color: rgb(203, 73, 16); font-size: 20px; font-weight: 800;">Servimos la taza de café perfecta para ti desde hace 20 años, con una calidez inigualable.
+                </h4>
             </div>
 
         </div>
     </div>
-
     <div id="quote" style="width: 100%; height: auto; text-align: center; padding: 0px; padding-top: 0px; padding-bottom: 12px; display: flex; align-items: center; justify-content: center;">
         <div style="width:90%;">
             <h2 style="font-size: 16px; font-style: italic;">Pide tu tarjeta de recompensas, cada 5 visitas llevate una bebida GRATIS!*</h2>
             <h7 style="font-size: 16px; font-style: italic;">*consumo minimo de $60 por visita, una por día</h7>
         </div>
     </div>
-
+    <br>
     <div id="menu" class="marquee-modal">
 
         <div class="marquee-image">
@@ -76,7 +80,12 @@
             <img src="frappe.jpg" alt="" height="100%" width="100%" style="object-fit: cover; ">
         </div>
     </div>
+    <br>
+    <div style="text-align: center;">
+        <button class="cta">Ver Menu</button>
+    </div>
 
+    <br>
     <div id="promos" class="marquee-modal">
 
         <div class="marquee-image">
@@ -87,17 +96,16 @@
     
             <div style="margin: 0; width: 80%; color: white;">
                 <h4 style="color: white;">2x1 con tus amigos!</h4>
-                <h4 style="color: rgba(255, 255, 255, 0.7);font-weight: 400;">Lunes a Jueves, de 4pm a 7pm!</h4>
+                <h4 style="color: rgba(255, 255, 255, 0.7);font-weight: 400;">En bebidas, Lunes a Miercoles, de 4pm a 6pm!</h4>
             </div>
 
         </div>
     </div>
 
-    
 
     
-
-    <div id="location" class="marquee-modal">
+    <br>
+    <div id="location" class="marquee-modal" style="background-color: white;">
 
         <div class="marquee-image">
             <div style="max-width:100%;list-style:none; transition: none;overflow:hidden;width:100%;height:100%;"><div id="canvas-for-googlemap" style="height:100%; width:100%;max-width:100%;"><iframe style="height:100%;width:100%;border:0;" frameborder="0" src="https://www.google.com/maps/embed/v1/place?q=Av.+José+María+Chávez+123,+Zona+Centro,+20000+Aguascalientes,+Ags.&key=AIzaSyBFw0Qbyq9zTFTd-tUY6dZWTgaQzuU17R8"></iframe></div><a class="embed-ded-maphtml" href="https://www.bootstrapskins.com/themes" id="enable-map-info">premium bootstrap themes</a><style>#canvas-for-googlemap img{max-width:none!important;background:none!important;font-size: inherit;font-weight:inherit;}</style></div>
@@ -114,7 +122,7 @@
         </div>
         
     </div>
-
+<br>
     <div id="contact" class="marquee-modal">
 
         
