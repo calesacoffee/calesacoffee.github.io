@@ -167,3 +167,19 @@ li{
     font-size: 14px;
     font-weight: lighter;
 }
+button:hover{
+    transition: 0.2s;
+    transform: scale(1.08);
+}
+
+.imag{
+    transition: 0.2s ease-in-out;
+    transform: scale(0.9);
+    border-radius: 20px;
+   
+}
+.imag:hover{
+    filter: brightness(1.1);    
+    transform: scale(1);
+    border-radius: 0px;
+}
