@@ -11,12 +11,13 @@
 
 .header-logo{
     margin: 10px;
-    margin-left: 20px;
-    height: 40px;
+    margin-left: 10px;
+    height: 8vw;
+    max-height: 50px;
 }
 
 .header-logo-container{
-    width: 60%;
+    width: 40%;
 }
 
 .header-navlink-container{
