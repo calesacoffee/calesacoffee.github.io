@@ -110,18 +110,18 @@ h7{
     padding-top: 10px;
     padding-bottom: 10px;
 }
+
 .contact-banner{
-    width: 50px;
+    width: 12vw;
     height: 40px;
-    background-color: #282828;
+    background-color: #bd2921;
     color: #FCDEBD;
     font-size: 18px;
     font-weight: bold;
-    margin: 0px;
+    margin: 10px;
     border-radius: 8px;
     border: 0px;
-    padding: 10px;
-    padding-top: 4px;
+    padding: 0px;
     padding-bottom: 0px;
 }
 
