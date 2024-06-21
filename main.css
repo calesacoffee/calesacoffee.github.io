@@ -183,5 +183,5 @@ button:hover{
 .imag:hover{
     filter: brightness(1.1);    
     transform: scale(1);
-    border-radius: 0px;
+    border-radius: 20px;
 }
