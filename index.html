@@ -32,29 +32,13 @@
 
         <div style="width: 100%; text-align: right; padding: 10px;">
             <button class="contact-banner" onclick="document.getElementById('location').scrollIntoView({ block: 'end',  behavior: 'smooth' });">
-                <div style="display: flex; width: 100%; align-items: center; align-content: center; text-align: center; justify-content: center; gap: 10px;">
+                <div style="display: flex; width: 100%; align-items: center; align-content: center; text-align: center; justify-content: center;">
                     <img height="25px" style="mix-blend-mode: screen; margin-bottom: 0;" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR3RmDXaC09vEZI5Z-IwPlckJ4DE-LfTbMw-w&s" alt="">
                     <h4 id="ubicanos-text" style="display: inline; margin: 0px; padding: 0; font-size: clamp(1vw, -0.5rem + 7vw, 1rem); color: white;">Ubícanos</h4>
                 </div>
                </button>
 
-            <script>
-                if(self.innerWidth < 500){
-                        document.getElementById('ubicanos-text').remove()
-                }
-
-                self.addEventListener("resize", checkSize);
-                function checkSize(){
-                    console.log('calculating')
-                    if(self.innerWidth < 700){
-                        console.log('detected mobile dev')
-                        document.getElementById('ubicanos-text').remove()
-                    }
-                    else{
-                         document.getElementById('ubicanos-text').style.visibility = 'visible'
-                    }
-                }
-            </script>
+    
         </div>
     </div>
     <div id="top-of-page" style="height: 0px;"></div>
