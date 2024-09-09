@@ -107,7 +107,7 @@ h7{
     text-align: left;
 }
 #quote{
-    background-color: rgb(160, 41, 41);
+    background-color: #701914;    
     color: white;
     width: 100%;
 }
@@ -141,7 +141,7 @@ h7{
 }
 
 .cta{
-    background-color: rgb(222, 80, 44);
+   background-color: #bd2921;
     width: 40%;
     max-width: 300px;
     height: 50px;
@@ -191,8 +191,7 @@ button:hover{
 
 .imag{
     transition: 0.2s ease-in-out;
-    transform: scale(0.9);
-    border-radius: 20px;
+    border-radius: 0px;
    
 }
 .imag:hover{
