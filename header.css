@@ -45,7 +45,7 @@
     margin-left: 20px;
     height: 8vw;
     max-height: 50px;
-    mix-blend-mode: darken;
+    mix-blend-mode: multiply;
 }
 
 .header-logo-container{
