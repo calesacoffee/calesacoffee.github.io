@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="header.css">
     <link rel="icon" type="image/x-icon" href="favicon.ico">
     <script type="module" src="menus.js"></script>
+    <script type="module" src="header.js"></script>
     <title>Calesa Coffee Shop - Menus</title>
 </head>
 <body>
@@ -15,14 +16,14 @@
     top: 0;
     left: 0;
     z-index: 99;">
-        <div class="header-logo-container"  onclick="document.getElementById('top-of-page').scrollIntoView({ block: 'end',  behavior: 'smooth' });"> 
+        <div id="logo-cont" class="header-logo-container"  onclick="document.getElementById('top-of-page').scrollIntoView({ block: 'end',  behavior: 'smooth' });"> 
             <img src="calesawhite.png" alt="" class="header-logo">
         </div>
 
         <div style="width: 100%; text-align: right; padding: 10px;">
             <button class="contact-banner" onclick="document.getElementById('location').scrollIntoView({ block: 'end',  behavior: 'smooth' });">
                 <div style="display: flex; width: 100%; align-items: center; align-content: center; text-align: center; justify-content: center;">
-                    <img height="25px" style="mix-blend-mode: screen; margin-bottom: 0;" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR3RmDXaC09vEZI5Z-IwPlckJ4DE-LfTbMw-w&s" alt="">
+                    <img id="loc-icon" style="mix-blend-mode: screen; margin-bottom: 0;" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR3RmDXaC09vEZI5Z-IwPlckJ4DE-LfTbMw-w&s" alt="">
                     <h4 id="ubicanos-text" style="display: inline; margin: 0px; padding: 0; font-size: clamp(1vw, -0.5rem + 7vw, 1rem); color: white;">Ubícanos</h4>
                 </div>
             </button>

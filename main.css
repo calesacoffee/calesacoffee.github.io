@@ -15,11 +15,16 @@ body{
     font-family: Helvetica;
 }
 
+
+
 @media (max-width: 800px) {
     #ubicanos-text{
         visibility: hidden;
         width: 0px;
     }
+
+
+
 }
 
 @media (min-width: 800px) {
@@ -126,22 +131,14 @@ h7{
     padding-bottom: 10px;
 }
 
-.contact-banner{
-    width: 12vw;
-    height: 40px;
-    background-color: #c11700;
-    color: #FCDEBD;
-    font-size: 18px;
-    font-weight: bold;
-    margin: 10px;
-    border-radius: 8px;
-    border: 0px;
-    padding: 0px;
-    padding-bottom: 0px;
+
+
+@media screen {
+    
 }
 
 .cta{
-    background-color: #c11700;
+    background-color: #e6e6e6;
     width: 40%;
     max-width: 300px;
     height: 50px;
@@ -197,5 +194,4 @@ button:hover{
 .imag:hover{
     filter: brightness(1.1);    
     transform: scale(1);
-    border-radius: 20px;
 }
