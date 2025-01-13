@@ -1,5 +1,5 @@
 #header-banner{
-    background-color: #ffffff;
+    background-color: #000000;
     width: 100%;
     height: 80px;
     padding: 0px;
@@ -45,7 +45,6 @@
     margin-left: 20px;
     height: 8vw;
     max-height: 50px;
-    mix-blend-mode: multiply;
 }
 
 .header-logo-container{
