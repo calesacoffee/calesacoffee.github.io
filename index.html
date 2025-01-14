@@ -42,12 +42,32 @@
     </div>
 
     <div id="top-of-page" style="height: 0px;"></div>
-    <div id="header-banner" style="height: 60px; background-color: black;">  
+    <div id="header-banner" style="height: 60px; background-color: black;"> 
+    <style>
+        .main{
+            width: 100%; 
+            display: flex; 
+            text-align: left;  
+            background-image:   linear-gradient(to right, #0000006f,
+                                rgba(255, 207, 144, 0)),
+                                url('marquee-desktop.jpg'); background-size: cover;
+        }
+
+        @media (max-width: 600px) {
+            .main{
+            width: 100%; 
+            display: flex; 
+            text-align: left;  
+            background-image:   linear-gradient(to right, #0000006f,
+                                rgba(255, 207, 144, 0)),
+                                url('marquee.jpg'); background-size: cover;
+        }
+        }
+
+    </style> 
     </div>
 
-        <div class="marquee-text" style="width: 100%; display: flex; text-align: left;  background-image:
-        linear-gradient(to right, #0000006f, rgba(255, 207, 144, 0)),
-        url('marquee.jpg'); background-size: cover;">
+        <div class="marquee-text main">
             <div style="text-align: right; padding-right: 0vw;">
                 <h4 style="width: 45vw; margin-right: 0vw; color: rgb(255, 255, 255); font-size: clamp(1.5vw, -1rem + 8.333vw, 2rem); font-weight: 600;  font-family:'Poppins', sans-serif;
                 font-optical-sizing: auto;
