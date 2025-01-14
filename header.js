@@ -1,5 +1,5 @@
 document.getElementById('logo-cont').innerHTML = `
-    <img src="calesalogosimple2.png" alt="" class="header-logo">
+    <img src="Calesa2025white.png" alt="" class="header-logo">
 `
 window.addEventListener("scroll", function () {
     let header = document.getElementById("header-banner");
